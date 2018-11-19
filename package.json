@@ -1,0 +1,28 @@
+{
+  "name": "graphql-example",
+  "version": "1.0.0",
+  "description": "Practicing GraphQL",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "babel-node -—presets es2015 index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MPankajArun/GraphQL-Example.git"
+  },
+  "author": "Pankaj Meshram",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/MPankajArun/GraphQL-Example/issues"
+  },
+  "homepage": "https://github.com/MPankajArun/GraphQL-Example#readme",
+  "dependencies": {
+    "babel": "^6.23.0",
+    "babel-cli": "^6.26.0",
+    "babel-preset-es2015": "^6.24.1",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "graphql": "^14.0.2"
+  }
+}
